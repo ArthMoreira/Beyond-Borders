@@ -14,7 +14,7 @@ Uma landing page fictícia desenvolvida para um site de viagens. O objetivo dest
 
 - **Swiper.js**: Biblioteca para carrosséis interativos.
 
-##📋 Funcionalidades
+## 📋 Funcionalidades
 
 - **📱 Layout Responsivo**: Adapta-se automaticamente a diferentes dispositivos.
 
