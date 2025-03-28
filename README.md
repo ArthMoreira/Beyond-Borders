@@ -4,31 +4,31 @@ Uma landing page fictícia desenvolvida para um site de viagens. O objetivo dest
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML - Estrutura semântica para melhor acessibilidade e SEO.
+- **HTML**: Estrutura semântica para melhor acessibilidade e SEO.
 
-- **CSS - Estilização responsiva com Flexbox e Grid.
+- **CSS**: Estilização responsiva com Flexbox e Grid.
 
-- **JavaScript - Interações dinâmicas e animações.
+- **JavaScript**: Interações dinâmicas e animações.
 
-- **ScrollReveal - Biblioteca para animações de rolagem.
+- **ScrollReveal**: Biblioteca para animações de rolagem.
 
-- **Swiper.js - Biblioteca para carrosséis interativos.
+- **Swiper.js**: Biblioteca para carrosséis interativos.
 
 ##📋 Funcionalidades
 
-- **📱 Layout Responsivo - Adapta-se automaticamente a diferentes dispositivos.
+- **📱 Layout Responsivo**: Adapta-se automaticamente a diferentes dispositivos.
 
-- **📌 Barra de Navegação Fixa - Mantém a navegação acessível durante a rolagem.
+- **📌 Barra de Navegação Fixa**: Mantém a navegação acessível durante a rolagem.
 
-- **🎥 Animações de Rolagem - Elementos surgem suavemente ao navegar.
+- **🎥 Animações de Rolagem**: Elementos surgem suavemente ao navegar.
 
-- **🖼️ Carrossel de Imagens - Destinos e pacotes de viagem destacados dinamicamente.
+- **🖼️ Carrossel de Imagens**: Destinos e pacotes de viagem destacados dinamicamente.
 
-- **🏝️ Seção de Destinos - Exibição de lugares populares de forma atrativa.
+- **🏝️ Seção de Destinos**: Exibição de lugares populares de forma atrativa.
 
-- **✉️ Formulário de Contato - Para interação com os usuários (sem envio real de dados).
+- **✉️ Formulário de Contato**: Para interação com os usuários (sem envio real de dados).
 
-- **🖱️ Efeitos de Hover - Realce visual ao passar o mouse sobre elementos.
+- **🖱️ Efeitos de Hover**: Realce visual ao passar o mouse sobre elementos.
 
 ## 🌐 Acesse o Projeto
 
