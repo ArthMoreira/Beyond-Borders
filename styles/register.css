@@ -208,6 +208,11 @@
         width: 100%;
         max-width: 150px;
     }
+
+    .continue-button button {
+        -webkit-appearance: none;
+        text-decoration: none;
+        color: black; 
 }
 
 @media screen and (max-width: 1170px) {
