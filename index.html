@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Beyond Borders</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <p><span>B</span>eyond <span>B</span>orders</p>
+                <img class="logo_img" src="icons/plane.svg" alt="Avião">
+            </div>
+
+            <ul id="nav_list">
+                <li class="nav-item active"><a href="#Home">Início</a></li>
+                <li class="nav-item"><a href="#Services">Serviços</a></li>
+                <li class="nav-item"><a href="#Destinations">Destinos</a></li>
+                <li class="nav-item"><a href="#Steps">Como funciona?</a></li>
+                <li class="nav-item"><a href="#Testimonials">Depoimentos</a></li>
+                <li class="nav-item"><a href="#Register">Cadastre-se</a></li>
+                <li class="nav-item"><a href="#Newsletter">Newsletter</a></li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav-list">
+                <li class="nav-item active"><a href="#Home">Início</a></li>
+                <li class="nav-item"><a href="#Services">Serviços</a></li>
+                <li class="nav-item"><a href="#Destinations">Destinos</a></li>
+                <li class="nav-item"><a href="#Steps">Como funciona?</a></li>
+                <li class="nav-item"><a href="#Testimonials">Depoimentos</a></li>
+                <li class="nav-item"><a href="#Register">Cadastre-se</a></li>
+                <li class="nav-item"><a href="#Newsletter">Newsletter</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="Home">
+        <div class="subtitle">
+            <p class="home-subtitle">MELHORES DESTINOS AO REDOR DO MUNDO</p>
+        </div>
+
+        <div class="home-title">
+            <h1 class="home-text">Descubra, <span>aventure-se</span> e viva uma etapa nova e leve.</h1>
+            <p class="home-description">Descubra novos destinos, viva experiências inesquecíveis e embarque em uma jornada feita para você. Viajar é mais do que conhecer lugares—é colecionar momentos, sentir novas culturas e transformar cada aventura em uma lembrança especial. Deixe-nos levar você ao seu próximo destino dos sonhos!</p>
+        </div>
+
+        <div class="home-btn">
+            <a href="#" class="btn-default">Saiba Mais</a>
+            <a href="#" class="video-btn"><i class="fa-solid fa-play"></i> Assista aqui</a>
+        </div>
+
+        <div class="banner">
+            <img src="icons/Vector.svg" alt="Passageira">
+        </div>
+    </section>
+
+    <section id="Services">
+        <div class="text-services">
+            <h3 class="title-services">Serviços</h3>
+            <h1 class="subtitle-services">Oferecemos os melhores serviços</h1>
+        </div>
+
+        <div class="services">
+            <ul class="services-list">
+                <li class="services-icons">
+                    <img class="icons" src="icons/Icon1.svg" alt="Antena">
+                    <h1 class="list-title">Tempo Calculado</h1>
+                    <h3 class="list-subtitle">Encontre os voos mais rápidos com rotas otimizadas para reduzir o tempo de viagem.</h3>
+                </li>
+                <li class="services-icons">
+                    <img class="icons2" src="icons/Icon3.svg" alt="Microfone">
+                    <h1 class="list-title">Locais de Eventos</h1>
+                    <h3 class="list-subtitle">Descubra eventos imperdíveis e planeje sua viagem com base nos melhores destinos.</h3>
+                </li>
+                <li class="services-icons">
+                    <img class="icons3" src="icons/Icon4.svg" alt="Engrenagem">
+                    <h1 class="list-title">Customização</h1>
+                    <h3 class="list-subtitle">Personalize sua experiência de viagem escolhendo preferências de voo, assentos e serviços extra.</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Destinations">
+        <div class="text-destinations">
+            <h3 class="title-destinations">Mais vendidos</h3>
+            <h1 class="subtitle-destinations">Melhores destinos</h1>
+        </div>
+
+        <div class="container">
+            <div class="card-Roma">
+                <div class="img"><img src="icons/Roma6.jpg" alt="Roma"></div>
+                <div class="img-description">
+                    <p class="description">Roma</p>
+                    <p class="description">R$ 20.000</p>
+                    <div class="description1">
+                        <img class="seta" src="icons/navigation 1.svg" alt="Seta de navegação">
+                        <p class="description1">10 Dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-Londres">
+                <div class="img"><img src="icons/Londres2.jpg" alt="Londres"></div>
+                <div class="img-description">
+                    <p class="description">Londres</p>
+                    <p class="description">R$ 24.000</p>
+                    <div class="description1">
+                        <img class="seta" src="icons/navigation 1.svg" alt="Seta de navegação">
+                        <p class="description1">12 Dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-Europa">
+                <div class="img"><img src="icons/Europa1.jpg" alt="Europa"></div>
+                <div class="img-description">
+                    <p class="description">Toda Europa</p>
+                    <p class="description">R$ 49.000</p>
+                    <div class="description1">
+                        <img class="seta" src="icons/navigation 1.svg" alt="Seta de navegação">
+                        <p class="description1">28 Dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Steps">
+        <div class="steps1">
+            <div class="text-steps">
+                <h3 class="title-steps">Fácil e Rápido</h3>
+                <h1 class="subtitle-steps">Seu próximo destino está a apenas 3 passos de distância!</h1>
+            </div>
+    
+            <div class="steps-content">
+                <div class="steps">
+                    <img class="steps-img" src="icons/Step1.svg" alt="Imagem ilustrativa">
+                    <div class="steps-text">
+                        <h3 class="steps-title">Escolha o destino</h3>
+                        <p class="steps-description">Explore diversas opções de destinos incríveis e selecione aquele que mais combina com você.</p>
+                    </div>
+                </div>
+    
+                <div class="steps">
+                    <img class="steps-img" src="icons/Step2.svg" alt="Imagem ilustrativa">
+                    <div class="steps-text">
+                        <h3 class="steps-title">Faça o pagamento</h3>
+                        <p class="steps-description">Escolha a melhor forma de pagamento e garanta sua viagem com segurança e praticidade.</p>
+                    </div>
+                </div>
+    
+                <div class="steps">
+                    <img class="steps-img" src="icons/Step3.svg" alt="Imagem ilustrativa">
+                    <div class="steps-text">
+                        <h3 class="steps-title">Chegue ao aeroporto na data selecionada</h3>
+                        <p class="steps-description">Tudo pronto! Agora é só comparecer ao aeroporto na data escolhida e aproveitar sua viagem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="step-card-content">
+            <div class="card-LosAngeles">
+                <div class="step-card-img">
+                    <img src="icons/Los Angeles.jpg" alt="Los Angeles">
+                </div>
+    
+                <div class="step-card-text">
+                    <p class="step-card-description">Los Angeles</p>
+                    <p class="step-card-description">14 - 28 Maio</p>
+                    <p class="step-card-description1">18 pessoas vendo isso agora</p>
+    
+                    <div class="step-card-icon">
+                        <img class="card-icon" src="icons/Icon Leaf.svg" alt="Ícone de uma folha">
+                        <img class="card-icon" src="icons/Icon Map.svg" alt="Ícone de um mapa">
+                        <img class="card-icon" src="icons/Icon Send.svg" alt="Ícone de uma seta">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="Testimonials">
+        <div class="text-testimonial">
+            <h3 class="title-testimonial">Depoimentos</h3>
+            <h1 class="subtitle-testimonial">O que os clientes falam sobre nós</h1>
+            <p class="p-testimonial">
+                Quer saber o que torna nossa marca especial? Confira o que eles dizem!
+            </p>
+        </div>
+    
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p class="p-swipper">Uma experiência incrível!</p>
+                    <div class="testimonial-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+    
+                    <blockquote class="testimonial-quote">
+                        "Viajar com a Beyond foi uma das melhores decisões que já tomei! Tudo foi organizado perfeitamente. Mal posso esperar pela próxima aventura!"
+                    </blockquote>
+    
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="icons/Mathias.svg" alt="Mathias">
+                        </div>
+    
+                        <div class="author-info">
+                            <h3>Mathias</h3>
+                            <p>Cliente desde 2018</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <p class="p-swipper">Viagem dos sonhos realizada!</p>
+                    <div class="testimonial-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+    
+                    <blockquote class="testimonial-quote">
+                        "Sempre quis conhecer a Europa, mas tinha receio de organizar tudo sozinha. A Beyond fez um roteiro incrível e tudo saiu melhor do que imaginei!"
+                    </blockquote>
+    
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="icons/Elaine.svg" alt="Elaine">
+                        </div>
+    
+                        <div class="author-info">
+                            <h3 class="name-author">Elaine</h3>
+                            <p class="since-author">Cliente desde 2018</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <p class="p-swipper">Tudo impecável!</p>
+                    <div class="testimonial-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+    
+                    <blockquote class="testimonial-quote">
+                        "A agência cuidou de todos os detalhes com muita atenção, e eu só precisei aproveitar a experiência! O atendimento foi excelente, sempre atenciosos a ajudar em todas as dúvidas."
+                    </blockquote>
+    
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="icons/Diego.svg" alt="Diego">
+                        </div>
+    
+                        <div class="author-info">
+                            <h3 class="name-author">Diego</h3>
+                            <p class="since-author">Cliente desde 2022</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <p class="p-swipper">Atendimento excepcional!</p>
+                    <div class="testimonial-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+    
+                    <blockquote class="testimonial-quote">
+                        "A agência se preocupa de verdade com seus clientes! Tive suporte e segurança do início ao fim da viagem. Com certeza viajarei com eles novamente!"
+                    </blockquote>
+    
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="icons/Stella.svg" alt="Stella">
+                        </div>
+    
+                        <div class="author-info">
+                            <h3 class="name-author">Stella</h3>
+                            <p class="since-author">Cliente desde 2019</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <p class="p-swipper">Melhor custo-benefício!</p>
+                    <div class="testimonial-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+    
+                    <blockquote class="testimonial-quote">
+                        "Os pacotes são muito bem montados, e os preços são justos pelo serviço oferecido. Viajar ficou muito mais fácil com essa agência. Super recomendo!"
+                    </blockquote>
+    
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="icons/Derek.svg" alt="Derek">
+                        </div>
+    
+                        <div class="author-info">
+                            <h3 class="name-author">Derek</h3>
+                            <p class="since-author">Cliente desde 2015</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <p class="p-swipper">Viagem perfeita!</p>
+                    <div class="testimonial-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+    
+                    <blockquote class="testimonial-quote">
+                        "Desde o primeiro contato, fui super bem atendida e tive todo o suporte necessário para planejar minha viagem e o resultado foi uma experiência incrível!"
+                    </blockquote>
+    
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="icons/May.svg" alt="May">
+                        </div>
+    
+                        <div class="author-info">
+                            <h3 class="name-author">May</h3>
+                            <p class="since-author">Cliente desde 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    
+    <section id="Register">
+        <div class="register">
+            <div class="form-img">
+                <img src="icons/IMG Contato.svg" alt="Banner de uma passageira">
+            </div>
+    
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                    </div>
+    
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Primeiro nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="e-mail">E-mail</label>
+                            <input id="e-mail" type="email" name="e-mail" placeholder="Digite seu e-mail" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input id="number" type="number" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="confirmpassword">Confirme sua senha</label>
+                            <input id="confirmpassword" type="password" name="confirmpassword" placeholder="Digite sua senha" required>
+                        </div>
+                    </div>
+    
+                    <div class="interest-inputs">
+                        <div class="interest-title">
+                            <h6>Qual seu interesse?</h6>
+                        </div>
+    
+                        <div class="interest-group">
+                            <div class="interest-input">
+                                <input type="radio" id="package" name="interest">
+                                <label for="package">Pacotes de viagem</label>
+                            </div>
+    
+                            <div class="interest-input">
+                                <input type="radio" id="discount" name="interest">
+                                <label for="discount">Promoções e descontos</label>
+                            </div>
+    
+                            <div class="interest-input">
+                                <input type="radio" id="recommended" name="interest">
+                                <label for="recommended">Roteiros e destinos recomendados</label>
+                            </div>
+    
+                            <div class="interest-input">
+                                <input type="radio" id="support" name="interest">
+                                <label for="support">Consultoria de viagem</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="continue-button">
+                        <button onclick="window.location.href='#'">Concluir</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="Newsletter">
+        <div class="newsletter">
+            <div class="img-newsletter">
+            </div>
+            <div class="text-newsletter">
+                Inscreva-se para receber novidades exclusivas da Beyond Borders! Fique por dentro de ofertas, notícias e conteúdos especiais diretamente no seu e-mail. Não perca a chance de explorar o mundo!
+            </div>
+            <div class="input-newsletter">
+                <input class="input" type="text" placeholder="Digite seu e-mail" />
+                <button class="button-newsletter">Inscreva-se</button>
+            </div>
+            <p class="p-newsletter">*A newsletter é para todos! Não é preciso criar uma conta para receber nossas ofertas e novidades.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <div class="logo-footer">
+                    <p><span>B</span>eyond <span>B</span>orders</p>
+                </div>
+                <p class="p-footer">Viaje com a confiança de quem entende o que você procura.</p>
+                <div class="social-media-botões">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <ul class="footer-list">
+                <li>
+                    <h3 class="title-footer">Sobre</h3>
+                </li>
+                <li><a href="#" class="footer-link">Quem somos</a></li>
+                <li><a href="#" class="footer-link">Nosso compromisso</a></li>
+                <li><a href="#" class="footer-link">Destinos em destaque</a></li>
+                <li><a href="#" class="footer-link">Pacotes de viagem</a></li>
+            </ul>
+    
+            <ul class="footer-list">
+                <li>
+                    <h3 class="title-footer">Empresa</h3>
+                </li>
+                <li><a href="#" class="footer-link">Por que viajar conosco?</a></li>
+                <li><a href="#" class="footer-link">Seja nosso parceiro</a></li>
+                <li><a href="#" class="footer-link">Perguntas frequentes</a></li>
+                <li><a href="#" class="footer-link">Blog de viagens</a></li>
+            </ul>
+    
+            <ul class="footer-list">
+                <li>
+                    <h3 class="title-footer">Suporte</h3>
+                </li>
+                <li><a href="#" class="footer-link">Minha conta</a></li>
+                <li><a href="#" class="footer-link">Central de ajuda</a></li>
+                <li><a href="#" class="footer-link">Feedbacks</a></li>
+                <li><a href="#" class="footer-link">Fale conosco</a></li>
+                <li><a href="#" class="footer-link">Acessibilidade</a></li>
+            </ul>
+    
+            <div id="footer_contact">
+                <h3 class="title-footer">Entre em contato</h3>
+                <li><a href="#" class="footer-link">Dúvidas ou feedbacks?</a></li>
+                <p class="p-footer">Digite seu email e entraremos em contato.</p>
+                <div id="input_contact">
+                    <input type="email" id="email" placeholder="Digite seu e-mail">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <div id="footer_rights">
+            <p class="footer-text"></p>2025 Todos os Direitos Reservados. Arthur Moreira
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="javascript/script.js"></script>
+    </body>
+    </html>
+    

@@ -1,0 +1,131 @@
+#Services {
+    min-height: calc(100vh - 91px);
+    padding: 120px 8%;
+}
+
+.text-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-services {
+    font-family: var( --font-primary-1);
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--color-primary-3);
+}
+
+.subtitle-services {
+    font-family: var(--font-primary-2);
+    color: var(--color-primary-2);
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+
+.services {
+    margin-top: 100px;
+}
+
+.icons {
+    transition: transform 0.4s ease; 
+}
+
+.icons:hover {
+    transform: scale(1.07); 
+}
+
+.icons2 {
+    width: 70px;
+    transition: transform 0.4s ease; 
+}
+
+.icons2:hover {
+    transform: scale(1.07); 
+}
+
+.icons3 {
+    width: 91px;
+    transition: transform 0.4s ease; 
+}
+
+.icons3:hover {
+    transform: scale(1.07); 
+}
+
+
+.services-list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.services-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+   
+}
+
+.list-title{
+    font-family: var( --font-primary-4);
+    font-weight: 500;
+    color: var(--color-secondary-12);
+    margin-top: 30px;
+    
+}
+
+.list-subtitle{
+    font-family: var( --font-primary-1);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--color-secondary-10);
+    margin-top: 15px;
+    
+}
+
+@media only screen and (max-width: 1170px) {
+
+    #Services {
+        padding: 25px;
+    }
+
+    .text-services {
+        text-align: center;
+    }
+
+    .title-services {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .services{
+        margin-top: 20px;
+    }
+
+    .services-list {
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 20px; 
+    }
+
+    .list-subtitle {
+        font-size: 18px;
+    }
+
+    .card-Roma:hover {
+        transform: none; 
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 844px) {
+    .subtitle-services {
+        font-size: 40px;
+    
+}
+
+}
