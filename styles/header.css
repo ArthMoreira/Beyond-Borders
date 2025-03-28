@@ -83,20 +83,18 @@ span {
         background-color: transparent;
         font-size: 1.5rem;
         cursor: pointer;
-        
-        
     }
 
     #mobile_btn i {
-        color: var(color-neutral-1);
+       -webkit-appearance: none;
+       text-decoration: none;
+       color: black; 
     }
 
     #mobile_menu.active {
         display: flex;
         flex-direction: column;
         align-items: center; 
-        
-    
     }
 
     #mobile_nav-list {
@@ -105,18 +103,16 @@ span {
         gap: 12px;
         margin: 12px 0px;
         font-family: 'Poppins', sans-serif;
-        
     }
 
     #mobile_nav-list .nav-item {
         list-style: none;
         text-align: center;
-        
     }
 
     .nav-item a {
         color: #212832;
 
-}
+    }
 
 }
