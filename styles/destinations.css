@@ -158,10 +158,6 @@
         
     }
 
-    .card-Roma, .card-Londres, .card-Europa {
-        margin: 35px 0; 
-    }
-
 }
 
     @media only screen and (max-width: 768px) {
