@@ -22,7 +22,7 @@ Uma landing page fictícia desenvolvida para um site de viagens. O objetivo dest
 
 - **🎥 Animações de Rolagem**: Elementos surgem suavemente ao navegar.
 
-- **🖼️ Carrossel de Imagens**: Destinos e pacotes de viagem destacados dinamicamente.
+- **🖼️ Carrossel de Depoimentos**: Uma sequência de feedbacks dos usuários.
 
 - **🏝️ Seção de Destinos**: Exibição de lugares populares de forma atrativa.
 
